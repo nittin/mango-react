@@ -1,0 +1,27 @@
+.menu {
+	text-align: center;
+	background: #000c0f;
+	height: 60px;
+}
+.menu .menu-nav {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	color: #FFF;
+}
+.menu .menu-navl > li{
+	height: 60px;
+	min-width: 70px;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu .menu-nav > li > a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.menu .menu-nav > li:hover{
+	background: #252a32;
+}

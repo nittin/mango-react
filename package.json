@@ -1,0 +1,26 @@
+{
+  "name": "mango-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "chart.js": "^2.7.2",
+    "react": "^16.3.2",
+    "react-chartjs-2": "^2.7.2",
+    "react-dom": "^16.3.2",
+    "react-google-login": "^3.2.1",
+    "react-google-maps": "^9.4.5",
+    "react-router": "latest",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "reactjs-localstorage": "^0.0.6",
+    "reactstrap": "^5.0.0",
+    "recompose": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
