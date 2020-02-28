@@ -128,6 +128,7 @@ export function HomePage(props) {
       </Drawer>
       <div className={classes.map}>
         <GoogleMapReact
+          style={{position: 'static'}}
           bootstrapURLKeys={{key: apiMapKey}}
           defaultCenter={center}
           defaultZoom={zoom}
