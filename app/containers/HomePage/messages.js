@@ -10,6 +10,10 @@ export const scope = 'app.containers.HomePage';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'Map!',
+    defaultMessage: 'Home',
+  },
+  slot: {
+    id: `${scope}.slot`,
+    defaultMessage: 'Slot',
   },
 });

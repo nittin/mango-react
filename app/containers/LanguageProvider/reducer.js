@@ -6,10 +6,10 @@
 import produce from 'immer';
 
 import { CHANGE_LOCALE } from './constants';
-import { DEFAULT_LOCALE } from '../../i18n';
+import { DEFAULT_LOCALE, appLocales } from 'i18n';
 
 export const initialState = {
-  locale: DEFAULT_LOCALE,
+  locale: appLocales.includes(navigator.language) ? navigator.language : DEFAULT_LOCALE,
 };
 
 /* eslint-disable default-case, no-param-reassign */
